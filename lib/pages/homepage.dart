@@ -1,4 +1,5 @@
 import 'package:dormmo2/pages/User.dart';
+import 'package:dormmo2/pages/grahp.dart';
 import 'package:flutter/material.dart';
 
 class homepage extends StatefulWidget {
@@ -15,7 +16,7 @@ class _homepageState extends State<homepage> {
       TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
   static const List<Widget> _widgetOptions = <Widget>[
     User_home(),
-    User_home(),
+    grahp(),
     User_home(),
     User_home(),
   ];
