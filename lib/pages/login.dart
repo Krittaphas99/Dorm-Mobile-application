@@ -104,7 +104,7 @@ class _LoginState extends State<Login> {
                         TextFormField(
                           decoration: const InputDecoration(
                             border: UnderlineInputBorder(),
-                            labelText: 'Enter your username or email',
+                            labelText: 'Enter your username or ID',
                           ),
                           validator: (value) => EmailValidator.validate(value)
                               ? null

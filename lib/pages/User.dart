@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:email_validator/email_validator.dart';
 import 'package:flutter/material.dart';
 
@@ -32,8 +34,8 @@ class _User_homeState extends State<User_home> {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Container(
-                          width: MediaQuery.of(context).size.width * 0.8,
-                          height: MediaQuery.of(context).size.height * 0.15,
+                          width: MediaQuery.of(context).size.width * 0.85,
+                          height: MediaQuery.of(context).size.height * 0.13,
                           color: Color.fromARGB(255, 235, 233, 233),
                           child: Row(
                             children: [
@@ -71,11 +73,44 @@ class _User_homeState extends State<User_home> {
                                   print("2");
                                 },
                                 child: Container(
+                                  decoration: BoxDecoration(
+                                      color: Color.fromARGB(255, 235, 233, 233),
+                                      borderRadius: BorderRadius.circular(20)),
                                   width:
                                       MediaQuery.of(context).size.width * 0.40,
                                   height:
                                       MediaQuery.of(context).size.height * 0.25,
-                                  color: Color.fromARGB(255, 235, 233, 233),
+                                  child: Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.center,
+                                    mainAxisAlignment: MainAxisAlignment.start,
+                                    children: [
+                                      Container(
+                                        width:
+                                            MediaQuery.of(context).size.width *
+                                                0.15,
+                                        height:
+                                            MediaQuery.of(context).size.height *
+                                                0.15,
+                                        child: Image.asset(
+                                          'assets/images/fi-tool.png',
+                                          scale: 2,
+                                        ),
+                                        decoration: BoxDecoration(
+                                            shape: BoxShape.circle,
+                                            color: Colors.orange),
+                                      ),
+                                      Text(
+                                        "แจ้งซ่อม",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.bold),
+                                      ),
+                                      Text(
+                                        "แจ้งปัญหาภายในหอพัก",
+                                        style: TextStyle(color: Colors.grey),
+                                      ),
+                                    ],
+                                  ),
                                 ),
                               ),
                               SizedBox(
@@ -84,17 +119,50 @@ class _User_homeState extends State<User_home> {
                                   height: MediaQuery.of(context).size.height *
                                       0.05),
                               InkWell(
-                                onTap: () {
-                                  print("1");
-                                },
-                                child: Container(
-                                  width:
-                                      MediaQuery.of(context).size.width * 0.40,
-                                  height:
-                                      MediaQuery.of(context).size.height * 0.25,
-                                  color: Color.fromARGB(255, 235, 233, 233),
-                                ),
-                              ),
+                                  onTap: () {
+                                    print("1");
+                                  },
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                        color:
+                                            Color.fromARGB(255, 235, 233, 233),
+                                        borderRadius:
+                                            BorderRadius.circular(20)),
+                                    width: MediaQuery.of(context).size.width *
+                                        0.40,
+                                    height: MediaQuery.of(context).size.height *
+                                        0.25,
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.start,
+                                      children: [
+                                        Container(
+                                          width: MediaQuery.of(context)
+                                                  .size
+                                                  .width *
+                                              0.15,
+                                          height: MediaQuery.of(context)
+                                                  .size
+                                                  .height *
+                                              0.15,
+                                          child: Icon(
+                                            Icons.campaign_outlined,
+                                            size: 40,
+                                          ),
+                                          decoration: BoxDecoration(
+                                              shape: BoxShape.circle,
+                                              color: Colors.orange),
+                                        ),
+                                        Text(
+                                          "ข่าวสาร",
+                                          style: TextStyle(
+                                              fontWeight: FontWeight.bold),
+                                        ),
+                                      ],
+                                    ),
+                                  )),
                             ],
                           ),
                         ),
@@ -111,11 +179,44 @@ class _User_homeState extends State<User_home> {
                                   print("3");
                                 },
                                 child: Container(
+                                  decoration: BoxDecoration(
+                                      color: Color.fromARGB(255, 235, 233, 233),
+                                      borderRadius: BorderRadius.circular(20)),
                                   width:
                                       MediaQuery.of(context).size.width * 0.40,
                                   height:
                                       MediaQuery.of(context).size.height * 0.25,
-                                  color: Color.fromARGB(255, 235, 233, 233),
+                                  child: Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.center,
+                                    mainAxisAlignment: MainAxisAlignment.start,
+                                    children: [
+                                      Container(
+                                        width:
+                                            MediaQuery.of(context).size.width *
+                                                0.15,
+                                        height:
+                                            MediaQuery.of(context).size.height *
+                                                0.15,
+                                        child: Icon(
+                                          Icons.feed_outlined,
+                                          size: 40,
+                                        ),
+                                        decoration: BoxDecoration(
+                                            shape: BoxShape.circle,
+                                            color: Colors.orange),
+                                      ),
+                                      Text(
+                                        "บิล",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.bold),
+                                      ),
+                                      Text(
+                                        "ตรวจสอบค่าใช้จ่าย",
+                                        style: TextStyle(color: Colors.grey),
+                                      ),
+                                    ],
+                                  ),
                                 ),
                               ),
                               SizedBox(
@@ -128,11 +229,44 @@ class _User_homeState extends State<User_home> {
                                   print("4");
                                 },
                                 child: Container(
+                                  decoration: BoxDecoration(
+                                      color: Color.fromARGB(255, 235, 233, 233),
+                                      borderRadius: BorderRadius.circular(20)),
                                   width:
                                       MediaQuery.of(context).size.width * 0.40,
                                   height:
                                       MediaQuery.of(context).size.height * 0.25,
-                                  color: Color.fromARGB(255, 235, 233, 233),
+                                  child: Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.center,
+                                    mainAxisAlignment: MainAxisAlignment.start,
+                                    children: [
+                                      Container(
+                                        width:
+                                            MediaQuery.of(context).size.width *
+                                                0.15,
+                                        height:
+                                            MediaQuery.of(context).size.height *
+                                                0.15,
+                                        child: Image.asset(
+                                          'assets/images/fi-tool.png',
+                                          scale: 2,
+                                        ),
+                                        decoration: BoxDecoration(
+                                            shape: BoxShape.circle,
+                                            color: Colors.orange),
+                                      ),
+                                      Text(
+                                        "แจ้งซ่อม",
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.bold),
+                                      ),
+                                      Text(
+                                        "แจ้งปัญหาภายในหอพัก",
+                                        style: TextStyle(color: Colors.grey),
+                                      ),
+                                    ],
+                                  ),
                                 ),
                               ),
                             ],

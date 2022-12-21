@@ -1,5 +1,6 @@
 import 'package:dormmo2/pages/homepage.dart';
 import 'package:dormmo2/pages/login.dart';
+import 'package:dormmo2/pages/profile.dart';
 import 'package:flutter/material.dart';
 import 'package:dormmo2/pages/home.dart';
 import 'package:dormmo2/pages/upload.dart';
