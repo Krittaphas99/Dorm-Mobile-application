@@ -19,6 +19,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData().copyWith(
+        scaffoldBackgroundColor: Colors.white,
+        errorColor: Colors.red,
+        colorScheme: ThemeData().colorScheme.copyWith(primary: Colors.orange),
+      ),
       title: "Dorm",
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.light,
