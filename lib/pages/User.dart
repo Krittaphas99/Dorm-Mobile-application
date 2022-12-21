@@ -1,7 +1,8 @@
 import 'dart:math';
-
+import 'package:get/get.dart';
 import 'package:email_validator/email_validator.dart';
 import 'package:flutter/material.dart';
+import 'package:dormmo2/utils/routes.dart';
 
 class User_home extends StatefulWidget {
   const User_home({super.key});
@@ -70,6 +71,8 @@ class _User_homeState extends State<User_home> {
                             children: [
                               InkWell(
                                 onTap: () {
+                                  Navigator.pushNamed(
+                                      context, MyRoutes.reportUser);
                                   print("2");
                                 },
                                 child: Container(
@@ -120,6 +123,8 @@ class _User_homeState extends State<User_home> {
                                       0.05),
                               InkWell(
                                   onTap: () {
+                                    Navigator.pushNamed(
+                                        context, MyRoutes.followReport);
                                     print("1");
                                   },
                                   child: Container(
@@ -176,6 +181,7 @@ class _User_homeState extends State<User_home> {
                             children: [
                               InkWell(
                                 onTap: () {
+                                  Navigator.pushNamed(context, MyRoutes.bill);
                                   print("3");
                                 },
                                 child: Container(

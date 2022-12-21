@@ -14,7 +14,16 @@ class _followReportState extends State<followReport> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("follow"),
+        backgroundColor: Colors.orange,
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back_ios_new_sharp, color: Colors.white),
+          onPressed: () => Navigator.of(context).pop(),
+        ),
+        title: Text(
+          "ข่าวสาร",
+          style: TextStyle(color: Colors.white),
+        ),
+        centerTitle: true,
       ),
     );
   }

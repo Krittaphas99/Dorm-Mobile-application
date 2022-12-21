@@ -14,7 +14,16 @@ class _billPageState extends State<billPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("bill"),
+        backgroundColor: Colors.orange,
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back_ios_new_sharp, color: Colors.white),
+          onPressed: () => Navigator.of(context).pop(),
+        ),
+        title: Text(
+          "บิล",
+          style: TextStyle(color: Colors.white),
+        ),
+        centerTitle: true,
       ),
     );
   }
