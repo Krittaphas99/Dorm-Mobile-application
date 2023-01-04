@@ -44,6 +44,7 @@ dependencies:
   flutter_cache_manager: 3.3.0
   font_awesome_flutter: 10.1.0
   from_css_color: 2.0.0
+  http: ^0.13.5
   get: ^4.6.5
   intl: 0.17.0
   json_path: 0.4.1
@@ -84,20 +85,20 @@ flutter:
     - assets/
     - assets/images/icon.png
     - assets/images/union.png
-    - assets/images/chunk-chevronright.png
+    
     - assets/images/ios-icon-small-clock.png
     - assets/images/rectangle.png
     - assets/images/vuesax-linear-eye-slash.png
-    - assets/images/chunk-chevronright-7Aa.png
+   
     - assets/images/chunk-waterdrop.png
-    - assets/images/arrowbackios-87U.png
-    - assets/images/arrowbackios.png
+  
+    
     - assets/images/misc-tools.png
-    - assets/images/auto-group-iw3q.png
+   
     - assets/images/chunk-business.png
     - assets/images/rectangle-50.png
     - assets/images/ios-icon-small-wifi.png
-    - assets/images/arrowbackios-9uc.png
+    
     - assets/images/tether-usdt.png
     - assets/images/group-47.png
     - assets/images/ios-icon-small-mobile-signal.png
@@ -108,25 +109,25 @@ flutter:
     - assets/images/outline-brands-slack.png
     - assets/images/frame-36.png
     - assets/images/ios-icon-small-bluetooth.png
-    - assets/images/chunk-chevronright-ZEA.png
+ 
     - assets/images/ios-icon-small-battery.png
     - assets/images/eye-slash.png
-    - assets/images/arrowbackios-b9U.png
-    - assets/images/chart.png
+    
+   
     - assets/images/solid-status-notification.png
     - assets/images/home-h4N.png
     - assets/images/vuesax-linear-eye-slash-1vr.png
     - assets/images/group-25.png
-    - assets/images/arrowbackios-HvJ.png
+    
     - assets/images/fi-tool.png
     - assets/images/outline-communication-user.png
-    - assets/images/arrowbackios-uR4.png
+  
     - assets/images/mask-group.png
     - assets/images/outline-status-info-circle.png
     - assets/images/outline-communication-user-5tW.png
-    - assets/images/arrowbackios-eRx.png
+   
     - assets/images/group-11.png
-    - assets/images/auto-group-ig9q.png
+    
     - assets/images/group-47-KNA.png
     - assets/images/solid-interface-trash.png
     - assets/images/home-b22.png
@@ -135,50 +136,48 @@ flutter:
     - assets/images/outline-interface-settings-alt-eve.png
     - assets/images/solid-interface-trash-Nre.png
     - assets/images/chunk-business-xNE.png
-    - assets/images/chunk-chevronright-H4N.png
+    
     - assets/images/rectangle-AP4.png
-    - assets/images/chunk-chevronright-fBp.png
-    - assets/images/chart-bDt.png
+    
+    
     - assets/images/solid-status-notification-kTU.png
     - assets/images/ellipse-4.png
-    - assets/images/chunk-camera.png
+    
     - assets/images/mask-group-mzi.png
     - assets/images/outline-interface-settings-alt-HTG.png
     - assets/images/mask-group-Cq8.png
     - assets/images/outline-brands-slack-W58.png
     - assets/images/solid-files-image.png
-    - assets/images/arrowbackios-NZp.png
+    
     - assets/images/group-26.png
-    - assets/images/arrowbackios-UvE.png
+   
     - assets/images/dots-horizontal-73Q.png
     - assets/images/mask-group-owp.png
-    - assets/images/arrowbackios-Lgr.png
+    
     - assets/images/vuesax-linear-eye-slash-6NW.png
     - assets/images/rectangle-hyt.png
-    - assets/images/arrowbackios-1U6.png
+   
     - assets/images/group-27.png
     - assets/images/group-47-9qk.png
-    - assets/images/chart-5WS.png
-    - assets/images/chunk-chevronright-zee.png
+    
+    
     - assets/images/rectangle-yWa.png
     - assets/images/outline-communication-user-iCa.png
-    - assets/images/arrowbackios-F6a.png
+  
     - assets/images/group-47-MQW.png
     - assets/images/chunk-business-5bQ.png
     - assets/images/solid-files-image-Qdg.png
     - assets/images/outline-interface-logout.png
     - assets/images/outline-communication-user-zLz.png
-    - assets/images/chunk-chevronright-fzr.png
+    
     - assets/images/rectangle-obG.png
     - assets/images/group-47-dTp.png
-    - assets/images/chart-hMC.png
-    - assets/images/chunk-chevronright-pCA.png
+  
+    
     - assets/images/home-Dzz.png
     - assets/images/energy-saving.png
     - assets/images/energy-saving-dSS.png
-    - assets/images/arrowbackios-u94.png
-    - assets/images/chunk-chevronright-sqt.png
-    - assets/images/chunk-chevronright-yAA.png
+  
     - assets/images/fi-pen-tool.png
     - assets/images/outline-interface-settings-alt-pux.png
     - assets/images/group-47-vCJ.png
@@ -187,23 +186,22 @@ flutter:
     - assets/images/chunk-business-Cst.png
     - assets/images/group-47-iW6.png
     - assets/images/ellipse-7.png
-    - assets/images/arrowbackios-z3c.png
+    
     - assets/images/group-47-UDg.png
     - assets/images/mask-group-DKg.png
-    - assets/images/chunk-chevronright-emg.png
+  
     - assets/images/group-47-H6S.png
     - assets/images/group-47-rFL.png
     - assets/images/group-47-iYS.png
-    - assets/images/chunk-chevronright-LhY.png
+    
     - assets/images/solid-interface-trash-roc.png
-    - assets/images/arrowbackios-Sae.png
+    
     - assets/images/chunk-business-5X8.png
     - assets/images/group-47-mAz.png
-    - assets/images/chunk-user.png
-    - assets/images/icons-light.png
-    - assets/images/chunk-chevronright-eYr.png
+    
+   
     - assets/images/icons-light-Xnr.png
-    - assets/images/chunk-chevronright-Rg6.png
+    
     - assets/images/group-47-GiW.png
     - assets/images/misc-tools-4MG.png
     - assets/images/chunk-business-bQW.png
